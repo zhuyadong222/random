@@ -1,0 +1,19 @@
+server:
+  port: 8081
+
+user:
+  username: 管理员
+  age: 22
+  desc: ${user.username}今年${user.age}岁了
+
+info:
+  app:
+    name: spring-boot-hello
+    version: V1.0.0
+management:
+  security:
+    enabled: false
+  port: 54001
+
+
+#com.didispace.blog.value: ${random.value}
