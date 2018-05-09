@@ -28,6 +28,8 @@ public class main {
     @Value("${my.long}")
     private long randomLong;
 
+    //没有random.float和random.double类型，他们只会默认转成random.value随机字符串
+
     //如果没有编写配置文件，此处可以直接使用${random.uuid}
     //int类型也可以换成String类型
     @Value("${random.uuid}")
